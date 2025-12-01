@@ -14,5 +14,14 @@ int main(){
     cout << teaLeaves << endl;
     cout << WaterTemp << endl;
     cout << teaGrade << endl;
+
+    // gives garbage value 
+    unsigned int smallTeaPack = -100;
+    cout<< smallTeaPack<< endl;
+
+    //type casting
+    double priceOfOneTea = 299.99;
+    int price = (int)priceOfOneTea;
+    cout << price << endl;
     return 0;
 }
